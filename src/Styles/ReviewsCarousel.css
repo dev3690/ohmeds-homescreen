@@ -1,0 +1,42 @@
+
+
+.reviews {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.carousel .carousel-item {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel .carousel-item .card {
+    margin: 0 10px;
+  }
+  
+  @media (max-width: 767px) {
+    .carousel .carousel-item {
+      display: block;
+      text-align: center;
+    }
+  
+    .carousel .carousel-item .card {
+      margin-bottom: 20px;
+    }
+  }
+  
+
+
+   .mySwiper .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mySwiper .swiper-pagination-bullet {
+    background: #007bff; /* Customize pagination color */
+  }
+  
+  .mySwiper .swiper-pagination-bullet-active {
+    background: #0056b3; /* Customize active pagination color */
+  }
+  

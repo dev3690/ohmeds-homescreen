@@ -1,0 +1,66 @@
+.navbar {
+    width: 100%;
+    max-width: 1700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #68b930;
+    justify-content: center;
+}
+
+.navbar-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Icons to the right */
+    align-items: center;
+}
+
+.navbar-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center the search bar */
+    align-items: center;
+}
+
+.navbar-logo {
+    width: 100px; /* Adjust the size of the logo */
+    height: auto;
+}
+
+.location {
+    font-size: 24px; /* Increase the font size of "Medskwik" */
+    font-weight: bold;
+}
+
+.navbar-icon {
+    font-size: 24px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.search-bar {
+    max-width: 600px; /* Increase the width of the search bar */
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar-logo {
+        width: 80px; /* Adjust the logo size for mobile */
+    }
+
+    .location {
+        font-size: 18px; /* Adjust font size for mobile */
+    }
+
+    .search-bar {
+        max-width: 100%; /* Full width on mobile */
+    }
+
+    .navbar-icon {
+        font-size: 20px; /* Adjust icon size for mobile */
+    }
+}

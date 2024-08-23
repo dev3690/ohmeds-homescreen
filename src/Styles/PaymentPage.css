@@ -1,0 +1,9 @@
+.payment-page {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .qr-code {
+    max-width: 200px;
+    margin-top: 20px;
+  }

@@ -1,0 +1,21 @@
+.offer-section {
+  padding: 20px 20px;
+}
+
+.mySwiper .swiper-slide img {
+  width: 10%; /* Ensure the image takes full width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 15px;
+  object-fit: fill; /* Ensure the image covers the slide area */
+}
+
+@media (max-width: 640px) {
+  .mySwiper .swiper-slide img {
+    width: 60%; /* Full width for mobile screens */
+    height: 200px; /* Adjust height to keep aspect ratio */
+  }
+  .offer-section {
+    padding: 20px 20px;
+  }
+  
+}
