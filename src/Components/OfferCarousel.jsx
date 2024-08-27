@@ -65,13 +65,17 @@ import { Pagination } from 'swiper/modules';
 
 import offer1 from '../Assets/Offers/offer1.avif';
 import offer2 from '../Assets/Offers/offer2.avif';
+import offer3 from '../Assets/Offers/offer3.jpg';
+import offer4 from '../Assets/Offers/offer4.jpg';
+import offer5 from '../Assets/Offers/offer5.jpg';
+import offer6 from '../Assets/Offers/offer6.jpg';
 
 const OfferCarousel = () => {
   return (
     <section className="offer-section my-4">
       <Swiper
-        slidesPerView={2} // Default to showing 2 slides at a time on desktop
-        spaceBetween={10}  // Space between slides
+        slidesPerView={1} // Default to showing 2 slides at a time on desktop
+        spaceBetween={100}  // Space between slides
         pagination={{
           clickable: true,
         }}
@@ -91,7 +95,7 @@ const OfferCarousel = () => {
         modules={[Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <img
             className="d-block w-100 rounded"
             src={offer1}
@@ -104,19 +108,33 @@ const OfferCarousel = () => {
             src={offer2}
             alt="Offer 2"
           />
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide>
           <img
             className="d-block w-100 rounded"
-            src={offer1}
+            src={offer3}
             alt="Offer 3"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             className="d-block w-100 rounded"
-            src={offer2}
+            src={offer4}
             alt="Offer 4"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            className="d-block w-100 rounded"
+            src={offer5}
+            alt="Offer 5"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            className="d-block w-100 rounded"
+            src={offer6}
+            alt="Offer 6"
           />
         </SwiperSlide>
         {/* Add more SwiperSlide components as needed */}

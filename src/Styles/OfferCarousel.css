@@ -4,7 +4,7 @@
 
 .mySwiper .swiper-slide img {
   width: 10%; /* Ensure the image takes full width */
-  height: auto; /* Maintain aspect ratio */
+  height: 400px; /* Maintain aspect ratio */
   border-radius: 15px;
   object-fit: fill; /* Ensure the image covers the slide area */
 }
