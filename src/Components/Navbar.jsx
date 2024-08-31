@@ -1,7 +1,3 @@
-
-
-
-
 import React from 'react';
 import '../Styles/Navbar.css';
 import { Form, InputGroup } from 'react-bootstrap';
@@ -19,17 +15,17 @@ const Navbar = () => {
   };
 
   return (
-    <header className="navbar p-3">
+    <header className="navbar fixed p-3">
       <div className="navbar-top d-flex justify-content-between align-items-center">
         <div className="d-flex align-items-center" onClick={handleLogoClick} style={{ cursor: 'pointer' }}>
           <img src={logo} alt="Logo" className="navbar-logo" />
           <span className="location ms-3">Medskwik</span>
         </div>
         <div className="d-flex align-items-center">
-          <Link to="/payment" className="navbar-icon-link m-3">
+          <Link to="/payment" className="navbar-icon-link m-1">
             <TfiWallet className="navbar-icon" />
           </Link>
-          <PiShoppingCartSimple className="navbar-icon cart-icon m-3" />
+          <PiShoppingCartSimple className="navbar-icon cart-icon m-1" />
         </div>
       </div>
       <div className="navbar-bottom d-flex justify-content-center mt-3">

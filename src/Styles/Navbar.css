@@ -1,14 +1,19 @@
 .navbar {
     width: 100%;
-    max-width: 1700px;
+    max-width: 1900px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #68b930;
     justify-content: center;
+    position: fixed; 
+    top: 0; 
+    z-index: 1000; /* Ensure it's above other content */
+    left: 50%; /* Center the navbar horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
 }
 
-.navbar-top {
+.navbar-top, .navbar-bottom {
     width: 100%;
     display: flex;
     justify-content: space-between; /* Icons to the right */
@@ -16,10 +21,7 @@
 }
 
 .navbar-bottom {
-    width: 100%;
-    display: flex;
     justify-content: center; /* Center the search bar */
-    align-items: center;
 }
 
 .navbar-logo {

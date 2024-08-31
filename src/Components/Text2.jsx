@@ -18,7 +18,7 @@ const Text1 = () => {
     <footer 
       className="text-center py-4" 
       style={{ 
-        backgroundColor: '#ff5722', 
+        backgroundColor: '#e67837', 
         color: '#fff', 
         maxWidth: '900px', 
         margin: '20px auto', 
